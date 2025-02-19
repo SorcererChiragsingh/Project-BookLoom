@@ -60,8 +60,8 @@
 
 - Frontend: HTML, CSS, JAVASCRIPT & React.Js
 - Backend:  Node JS & Express JS
-- Database: MongoDb
-- Deployment: Netlify
+- Database: MongoDb, PostMan
+- Deployment: Will be deploying on AWS.
 
 
 ## Roadmap
