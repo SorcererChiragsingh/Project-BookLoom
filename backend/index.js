@@ -87,7 +87,7 @@ app.put('/books/:id', async (request, response) => {
 
 
 // Route for Update a Book
-app.put('/:id', async (request, response) => {
+app.put('/books/:id', async (request, response) => {
   try {
     if (
       !request.body.title ||
@@ -115,7 +115,7 @@ app.put('/:id', async (request, response) => {
 });
 
 // Route for Delete a book
-app.delete('/:id', async (request, response) => {
+app.delete('/books/:id', async (request, response) => {
   try {
     const { id } = request.params;
 
